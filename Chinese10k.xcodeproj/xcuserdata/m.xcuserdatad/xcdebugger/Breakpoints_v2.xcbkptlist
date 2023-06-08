@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "115CF138-31DE-4200-B42D-EE89853BF526"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3835F477-C360-4267-B729-1D830CA4A1F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chinese10k/Chinese10kApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3835F477-C360-4267-B729-1D830CA4A1F1 - 71e6fc9db02980f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chinese10k.Chinese10kApp.init() -&gt; Chinese10k.Chinese10kApp"
+                  moduleName = "Chinese10k"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m/Developer/Chinese10k/Chinese10k/Chinese10kApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "746">
+               </Location>
+               <Location
+                  uuid = "3835F477-C360-4267-B729-1D830CA4A1F1 - 71e6fc9db02980f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chinese10k.Chinese10kApp.init() -&gt; Chinese10k.Chinese10kApp"
+                  moduleName = "Chinese10k"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m/Developer/Chinese10k/Chinese10k/Chinese10kApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "419">
+               </Location>
+               <Location
+                  uuid = "3835F477-C360-4267-B729-1D830CA4A1F1 - 71e6fc9db02980f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chinese10k.Chinese10kApp.init() -&gt; Chinese10k.Chinese10kApp"
+                  moduleName = "Chinese10k"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m/Developer/Chinese10k/Chinese10k/Chinese10kApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "373">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

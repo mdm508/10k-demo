@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2B66DF2A2FF6F80056AE06 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 0C2B66DE2A2FF6F80056AE06 /* SwiftCSV */; };
+		0C2B66E22A2FF7390056AE06 /* 10k.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0C2B66E12A2FF7380056AE06 /* 10k.csv */; };
+		0C2B66E42A2FF9200056AE06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B66E32A2FF9200056AE06 /* Constants.swift */; };
 		0C9E02C82A2FD05E00773910 /* Chinese10kApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E02C72A2FD05E00773910 /* Chinese10kApp.swift */; };
 		0C9E02CA2A2FD05E00773910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E02C92A2FD05E00773910 /* ContentView.swift */; };
 		0C9E02CC2A2FD06000773910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9E02CB2A2FD06000773910 /* Assets.xcassets */; };
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2B66E12A2FF7380056AE06 /* 10k.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10k.csv; sourceTree = "<group>"; };
+		0C2B66E32A2FF9200056AE06 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0C9E02C42A2FD05E00773910 /* Chinese10k.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chinese10k.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9E02C72A2FD05E00773910 /* Chinese10kApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinese10kApp.swift; sourceTree = "<group>"; };
 		0C9E02C92A2FD05E00773910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2B66DF2A2FF6F80056AE06 /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C2B66E02A2FF7030056AE06 /* Preload Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C2B66E12A2FF7380056AE06 /* 10k.csv */,
+			);
+			path = "Preload Data";
+			sourceTree = "<group>";
+		};
 		0C9E02BB2A2FD05E00773910 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +112,10 @@
 		0C9E02C62A2FD05E00773910 /* Chinese10k */ = {
 			isa = PBXGroup;
 			children = (
+				0C2B66E32A2FF9200056AE06 /* Constants.swift */,
 				0C9E02C72A2FD05E00773910 /* Chinese10kApp.swift */,
 				0C9E02C92A2FD05E00773910 /* ContentView.swift */,
+				0C2B66E02A2FF7030056AE06 /* Preload Data */,
 				0C9E02CB2A2FD06000773910 /* Assets.xcassets */,
 				0C9E02D02A2FD06000773910 /* Item.swift */,
 				0C9E02D22A2FD06000773910 /* Chinese10k.entitlements */,
@@ -150,6 +166,9 @@
 			dependencies = (
 			);
 			name = Chinese10k;
+			packageProductDependencies = (
+				0C2B66DE2A2FF6F80056AE06 /* SwiftCSV */,
+			);
 			productName = Chinese10k;
 			productReference = 0C9E02C42A2FD05E00773910 /* Chinese10k.app */;
 			productType = "com.apple.product-type.application";
@@ -222,6 +241,9 @@
 				Base,
 			);
 			mainGroup = 0C9E02BB2A2FD05E00773910;
+			packageReferences = (
+				0C2B66DD2A2FF6F80056AE06 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			productRefGroup = 0C9E02C52A2FD05E00773910 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2B66E22A2FF7390056AE06 /* 10k.csv in Resources */,
 				0C9E02CF2A2FD06000773910 /* Preview Assets.xcassets in Resources */,
 				0C9E02CC2A2FD06000773910 /* Assets.xcassets in Resources */,
 			);
@@ -264,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2B66E42A2FF9200056AE06 /* Constants.swift in Sources */,
 				0C9E02CA2A2FD05E00773910 /* ContentView.swift in Sources */,
 				0C9E02D12A2FD06000773910 /* Item.swift in Sources */,
 				0C9E02C82A2FD05E00773910 /* Chinese10kApp.swift in Sources */,
@@ -600,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0C2B66DD2A2FF6F80056AE06 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0C2B66DE2A2FF6F80056AE06 /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C2B66DD2A2FF6F80056AE06 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0C9E02BC2A2FD05E00773910 /* Project object */;
 }
